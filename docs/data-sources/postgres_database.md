@@ -3,18 +3,18 @@
 page_title: "rapidapp_postgres_database Data Source - rapidapp"
 subcategory: ""
 description: |-
-  Example data source
+  
 ---
 
 # rapidapp_postgres_database (Data Source)
 
-Example data source
+
 
 ## Example Usage
 
 ```terraform
 data "rapidapp_postgres_database" "example" {
-  id = "qewerw"
+  id = "db_id"
 }
 ```
 
@@ -23,8 +23,9 @@ data "rapidapp_postgres_database" "example" {
 
 ### Optional
 
-- `configurable_attribute` (String) Example configurable attribute
+- `name` (String)
+- `status` (String)
 
 ### Read-Only
 
-- `id` (String) Example identifier
+- `id` (String) The ID of this resource.
