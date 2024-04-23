@@ -1,3 +1,3 @@
-data "scaffolding_example" "example" {
-  configurable_attribute = "some-value"
+data "rapidapp_postgres_database" "example" {
+  id = "db_id"
 }

@@ -1,3 +1,3 @@
-provider "scaffolding" {
+provider "rapidapp" {
   # example configuration here
 }
